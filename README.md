@@ -53,6 +53,7 @@ Cloning my repo & configuring confyUI:
                                                       .gitignore
 
 Once again, go to the confyUI and do the following:
+
             1. You should see a load button there in confyUI. Click on it and upload workflow_api.json. The 'workflow_api.json' is present in my repo as shown in above DIRECTORY STRUCTURE 2.
             2. You will see some red nodes, but don't worry, that's what confyUI manager was installed for ! just click on confyUI manager and then click on install missing custom nodes
             NOTE: It may take some time as it would download dependencies and all for all the nodes required in my workflow that were previously missing. Once done, it will show a restart button at bottom, Don't forget to hit it
