@@ -1,4 +1,4 @@
-I have created a discord bot which uses stable diffusion running on your local computer and generate images in discord. 
+I have created a discord bot which uses stable diffusion running on your local computer to generate images in discord. 
 
 Pre requisites:
   1.1 : Installing confyUI
