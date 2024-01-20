@@ -18,6 +18,7 @@ Pre requisites:
                                                                               
   Download stable diffusion checkpoint(s) from civitai or huggingface and put them in checkpoints/ directory. The path to 'checkpoints' directory is shown in DIRECTORY STRUCTURE 1
             Here are some good checkpoints that I prefer:
+            
                                                 a. animerge_v24.safetensors
                                                 b. realcartoon3d_v11.safetensors
                                                 c. majicmixLux_v2.safetensors
@@ -26,6 +27,7 @@ Pre requisites:
                                                 
   Download confyUI manager as it will help you to automatically install missing custom nodes. Here is the link to confyUI manager: https://github.com/ltdrdata/ComfyUI-Manager
       Instructions to download confyUI manager:
+      
                                   a. cd custom_nodes       #It is equivalent to going to the custom_nodes directory and opening cmd or terminal there (relative path to custom_nodes is shown in DIRECTORY STRUCTURE 1)
                                   b. git clone https://github.com/ltdrdata/ComfyUI-Manager.git   #paste this command in terminal and hit enter
   
