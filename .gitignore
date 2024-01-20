@@ -1,0 +1,16 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment folder
+myenv/
+
+# Ignore output folder
+output/
+
+# Ignore __pycache__ folder
+__pycache__/
+
+# Add any other files or folders you want to ignore below this line
+credentials/
+prompts.csv
+testing.py
