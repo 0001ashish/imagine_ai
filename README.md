@@ -6,15 +6,15 @@ Pre requisites:
   Download confyUI suite here https://github.com/comfyanonymous/ComfyUI/releases/download/latest/ComfyUI_windows_portable_nvidia_cu121_or_cpu.7z 
   Once you download the zip file and extract, you will see directory structure like following(I have omitted some directories in following structure as those are not required at the moment):
 
-                                                        -------------------------DIRECTORY STRUCTURE 1-------------------------
-
-                                                          CondyUI_windows_portable/
-                                                                              - ConfyUI/
-                                                                                        - custom_nodes/
-                                                                                        - models/
-                                                                                              - checkpoints/
-                                                                              - run_cpu.bat
-                                                                              - run_nvidia_gpu.bat
+                                      -------------------------DIRECTORY STRUCTURE 1-------------------------
+  
+                                        CondyUI_windows_portable/
+                                                            - ConfyUI/
+                                                                      - custom_nodes/
+                                                                      - models/
+                                                                            - checkpoints/
+                                                            - run_cpu.bat
+                                                            - run_nvidia_gpu.bat
                                                                               
   Download stable diffusion checkpoint(s) from civitai or huggingface and put them in checkpoints/ directory. The path to 'checkpoints' directory is shown in DIRECTORY STRUCTURE 1
             Here are some good checkpoints that I prefer:
@@ -39,18 +39,18 @@ Cloning my repo & configuring confyUI:
   Once you clone my repo, you will see following directory structure:
 
 
-                                             ------------------------DIRECTORY STRUCTURE 2-----------------------
-                                                                     
-                                                                      workflows/
-                                                                              - workflow_api.json
-                                                                      output/
-                                                                      credentials/
-                                                                              - credentials.json
-                                                                      prompts.csv
-                                                                      bot_slash.py
-                                                                      main.py
-                                                                      requirements.txt
-                                                                      .gitignore
+                             ------------------------DIRECTORY STRUCTURE 2-----------------------
+                                                     
+                                                      workflows/
+                                                              - workflow_api.json
+                                                      output/
+                                                      credentials/
+                                                              - credentials.json
+                                                      prompts.csv
+                                                      bot_slash.py
+                                                      main.py
+                                                      requirements.txt
+                                                      .gitignore
 
 Once again, go to the confyUI and do the following:
             1. You should see a load button there in confyUI. Click on it and upload workflow_api.json. The 'workflow_api.json' is present in my repo as shown in above DIRECTORY STRUCTURE 2.
